@@ -9,7 +9,7 @@
 
         <h2>Présentation</h2>
         <ol>
-          <li><a href="index.html">Accueil</a></li>
+          <li><a href="{{ route('index') }}">Accueil</a></li>
           <li>Présentation</li>
         </ol>
 
@@ -74,11 +74,11 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-12">
-                <a href="genie_civil.php"><div class="card-bg" style="background-image: url('{{ asset('assets-app/img/hero-carousel/Geniecivil.jpg') }}');" data-aos="zoom-in" data-aos-delay="100"></div></a>
+                <a href="{{ route('genie_civil') }}"><div class="card-bg" style="background-image: url('{{ asset('assets-app/img/hero-carousel/Geniecivil.jpg') }}');" data-aos="zoom-in" data-aos-delay="100"></div></a>
                 </div>
                 <div class="col-xl-12 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title"><a href="genie_civil.php"> Genie civil & BTP</a></h4>
+                    <h4 class="card-title"><a href="{{ route('genie_civil') }}"> Genie civil & BTP</a></h4>
                     <!--ul>
                       <li><i class="bi bi-check2-all"></i> Voirie (construction et réhabilitation de route, VRD).</li>
                       <li><i class="bi bi-check2-all"></i> Travaux de réhabilitation de bâtiment.</li>
@@ -94,11 +94,11 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-12">
-                <a href="environnement.php"> <div class="card-bg" style="background-image: url({{ asset('assets-app/img/hero-carousel/environment.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div></a>
+                <a href="{{ route('environnement') }}"> <div class="card-bg" style="background-image: url({{ asset('assets-app/img/hero-carousel/environment.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div></a>
                 </div>
                 <div class="col-xl-12 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title"><a href="environnement.php">Environnement</a></h4>
+                    <h4 class="card-title"><a href="{{ route('environnement') }}">Environnement</a></h4>
                     <!--ul>
                       <li><i class="bi bi-check2-all"></i> Etude d’Impact Environnemental et Social (E. I. E. S), déplacement involontaire de population, salubrité publique, aménagement paysagiste ; </li>
                       <li><i class="bi bi-check2-all"></i> Suivi environnemental.</li>
@@ -117,11 +117,11 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-12">
-                <a href="energie.php"><div class="card-bg" style="background-image: url({{ asset('assets-app/img/hero-carousel/energie2.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div></a>
+                <a href="{{ route('energie') }}"><div class="card-bg" style="background-image: url({{ asset('assets-app/img/hero-carousel/energie2.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div></a>
                 </div>
                 <div class="col-xl-12 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title"><a href="energie.php">Energie</a></h4>
+                    <h4 class="card-title"><a href="{{ route('energie') }}">Energie</a></h4>
                     <!--ul>
                       <li><i class="bi bi-check2-all"></i> Electrification. </li>
                       <li><i class="bi bi-check2-all"></i> Energie renouvelable (Solaire, Bioénergie,…).</li>
@@ -136,11 +136,11 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-12">
-                <a href="travaux_public.php"><div class="card-bg" style="background-image: url({{ asset('assets-app/img/hero-carousel/Travaux-Public-Couverture_1~2.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div></a>
+                <a href="{{ route('travaux_public') }}"><div class="card-bg" style="background-image: url({{ asset('assets-app/img/hero-carousel/Travaux-Public-Couverture_1~2.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div></a>
                 </div>
                 <div class="col-xl-12 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title"><a href="travaux_public.php">Travaux publics</a></h4>
+                    <h4 class="card-title"><a href="{{ route('travaux_public') }}">Travaux publics</a></h4>
                     <!--p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p-->
                   </div>
                 </div>

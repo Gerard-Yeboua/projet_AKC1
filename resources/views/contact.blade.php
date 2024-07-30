@@ -9,7 +9,7 @@
 
         <h2>Contact</h2>
         <ol>
-          <li><a href="index.html">Accueil</a></li>
+          <li><a href="{{ route('index') }}">Accueil</a></li>
           <li>Contact</li>
         </ol>
 

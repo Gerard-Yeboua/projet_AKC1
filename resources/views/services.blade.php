@@ -135,7 +135,7 @@
                   <h4>Génie civil</h4>
                   <p>Voirie (construction et réhabilitation de route, VRD).</p>
                   <a href="{{ asset('assets-app/img/projects/remodeling-1.jpg') }}" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('services_details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -147,7 +147,7 @@
                   <h4>Génie civil</h4>
                   <p>Fourniture et pose de matériels industriel.</p>
                   <a href="{{ asset('assets-app/img/projects/construction-1.jpg') }}" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('services_details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -159,7 +159,7 @@
                   <h4>Génie civil</h4>
                   <p>Etude VRD : Voirie et Réseaux Divers (électricité, eau potable, assainissement fluvial, etc.)</p>
                   <a href="{{ asset('assets-app/img/projects/remodeling-3.jpg') }}" title="Remodeling 3" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('services_details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -171,7 +171,7 @@
                   <h4>Génie civil</h4>
                   <p>Calcul de structure</p>
                   <a href="{{ asset('assets-app/img/projects/construction-3.jpg') }}" title="Construction 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('services_details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -183,7 +183,7 @@
                   <h4>BTP</h4>
                   <p>Travaux de réhabilitation de bâtiment.</p>
                   <a href="{{ asset('assets-app/img/projects/repairs-3.jpg') }}" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('services_details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -195,7 +195,7 @@
                   <h4>BTP</h4>
                   <p>Travaux de construction de bâtiment en matériaux préfabriqués.</p>
                   <a href="{{ asset('assets-app/img/projects/design-3.jpg') }}" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('services_details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -207,7 +207,7 @@
                   <h4>BTP</h4>
                   <p>Travaux de polyester (Cuve, revêtement de sol industriels à la résine époxy, stratification, scellement).</p>
                   <a href="{{ asset('assets-app/img/projects/design-3.jpg') }}" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('services_details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -219,7 +219,7 @@
                   <h4>BTP</h4>
                   <p>Travaux HVA (Hydraulique Villageoise Améliorée).</p>
                   <a href="{{ asset('assets-app/img/projects/design-3.jpg') }}" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('services_details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->

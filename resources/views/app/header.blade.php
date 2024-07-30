@@ -2,7 +2,7 @@
  <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.php" class="logo d-flex align-items-center">
+      <a href="{{ route('index') }}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="{{ asset('assets-app/img/hero-carousel/logo.jpeg') }}" alt="" width="200" height="300">
         <h1><span>.</span></h1>
@@ -19,7 +19,7 @@
               <li><a href="{{ route('genie_civil') }}">GENIE CIVIL & BTP</a></li>
               <li><a href="{{ route('environnement') }}">ENVIRONNEMENT</a></li>
               <li><a href="{{ route('energie') }}">ENERGIE</a></li>
-              <li><a href="{{ route('travaux_public') }}">IMPORT-EXPORT</a></li>
+              <li><a href="{{ route('import_export') }}">IMPORT-EXPORT</a></li>
             </ul>
           </li>
           <li><a href="{{ route('projects') }}">Projets réalisés</a></li>

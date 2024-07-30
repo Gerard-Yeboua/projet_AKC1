@@ -33,10 +33,10 @@
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>NOS SERVICES</h4>
             <ul>
-              <li><a href="genie_civil.php">GENIE CIVIL & BTP</a></li>
-              <li><a href="environnement.php">ENVIRONNEMENT</a></li>
-              <li><a href="energie.php">ENERGIE</a></li>
-              <li><a href="travaux_public.php">IMPORT-EXPORT</a></li>
+              <li><a href="{{ route('genie_civil') }}">GENIE CIVIL & BTP</a></li>
+              <li><a href="{{ route('environnement') }}">ENVIRONNEMENT</a></li>
+              <li><a href="{{ route('energie') }}">ENERGIE</a></li>
+              <li><a href="{{ route('import_export') }}">IMPORT-EXPORT</a></li>
             </ul>
           </div><!-- End footer links column-->
 

@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Travaux_publicController extends Controller
+class Import_ExportController extends Controller
 {
     public function index(){
-        return view('travaux_public');
+        return view('import_export');
     }
 }

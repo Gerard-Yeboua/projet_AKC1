@@ -14,7 +14,7 @@ use App\Http\Controllers\EnvironnementController;
 use App\Http\Controllers\Genie_CivilController;
 use App\Http\Controllers\PresentationController;
 use App\Http\Controllers\ServicesDetailController;
-use App\Http\Controllers\Travaux_publicController;
+use App\Http\Controllers\Import_ExportController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,6 +45,6 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/devis', [DevisController::class, 'index'])->name('devis');
 Route::get('/energie', [EnergieController::class, 'index'])->name('energie');
 Route::get('/environnement', [EnvironnementController::class, 'index'])->name('environnement');
-Route::get('/travaux_public', [Travaux_publicController::class, 'index'])->name('travaux_public');
+Route::get('/import_export', [Import_ExportController::class, 'index'])->name('import_export');
 Route::get('/genie_civil', [Genie_CivilController::class, 'index'])->name('genie_civil');
 
