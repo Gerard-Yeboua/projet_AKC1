@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-xl-12 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title" align="center"><a href="genie_civil.php"> Genie civil & BTP</a></h4>
+                    <h4 class="card-title" align="center"><a href="{{ route('genie_civil') }}"> Genie civil & BTP</a></h4>
                     <!--ul>
                       <li><i class="bi bi-check2-all"></i> Voirie (construction et réhabilitation de route, VRD).</li>
                       <li><i class="bi bi-check2-all"></i> Travaux de réhabilitation de bâtiment.</li>
@@ -87,7 +87,7 @@
                 </div>
                 <div class="col-xl-12 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title" align="center"><a href="environnement.php">Environnement</a></h4>
+                    <h4 class="card-title" align="center"><a href="{{ route('environnement') }}">Environnement</a></h4>
                     <!--ul>
                       <li><i class="bi bi-check2-all"></i> Etude d’Impact Environnemental et Social (E. I. E. S), déplacement involontaire de population, salubrité publique, aménagement paysagiste ; </li>
                       <li><i class="bi bi-check2-all"></i> Suivi environnemental.</li>
@@ -110,7 +110,7 @@
                 </div>
                 <div class="col-xl-12 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title" align="center"><a href="energie.php">Energie</a></h4>
+                    <h4 class="card-title" align="center"><a href="{{ route('energie') }}">Energie</a></h4>
                     <!--ul>
                       <li><i class="bi bi-check2-all"></i> Electrification. </li>
                       <li><i class="bi bi-check2-all"></i> Energie renouvelable (Solaire, Bioénergie,…).</li>
@@ -129,7 +129,7 @@
                 </div>
                 <div class="col-xl-12 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title" align="center"><a href="travaux_public.php">Travaux publics</a></h4>
+                    <h4 class="card-title" align="center"><a href="{{ route('travaux_public') }}">Travaux publics</a></h4>
                     <!--p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p-->
                   </div>
                 </div>
